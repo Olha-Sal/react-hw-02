@@ -13,3 +13,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Стилі для кореневого елемента */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Стилі для секцій */
+section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Стилі для заголовків */
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #333;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+/* Стилі для кнопок */
+.button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0099ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Стилі для параграфів */
+p {
+  margin: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.statistics-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.total-wrapper {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
