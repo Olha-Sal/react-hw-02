@@ -15,8 +15,8 @@ export const Statistics = ({
         <p>Bad: {bad}</p>
       </div>
       <div className="total-wrapper">
-        <p>Total: {getTotal()}</p>
-        <p>Positive feedback: {getPositivePercentage()}%</p>
+        <p>Total: {getTotal}</p>
+        <p>Positive feedback: {getPositivePercentage}%</p>
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "react-hw-04-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olha-sal.github.io/react-hw-02/",
+  "homepage": "https://olha-sal.github.io/react-hw-04-01/",
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
