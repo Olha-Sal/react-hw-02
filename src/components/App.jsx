@@ -35,20 +35,6 @@ export class App extends Component {
     return Math.round((this.state.good / total) * 100);
   };
 
-  // Функція для відображення кількості відгуків кожної категорії
-  // renderFeedback = () => {
-  //   return (
-  //     <div>
-  //       <h2>Statistics:</h2>
-  //       <p>Good: {this.state.good}</p>
-  //       <p>Neutral: {this.state.neutral}</p>
-  //       <p>Bad: {this.state.bad}</p>
-  //       <p>Total: {this.countTotalFeedback()}</p>
-  //       <p>Positive feedback: {this.countPositiveFeedbackPercentage()}%</p>
-  //     </div>
-  //   );
-  // };
-
   render() {
     // Оголошуємо масив опцій для кнопок відгуків
     const options = ['good', 'neutral', 'bad'];
@@ -76,13 +62,5 @@ export class App extends Component {
         </Section>
       </div>
     );
-    //   <div className="App">
-    //     <h1>Pleace leave feedback</h1>
-    //     <button onClick={() => this.handleFeedback('good')}>Good</button>
-    //     <button onClick={() => this.handleFeedback('neutral')}>Neutral</button>
-    //     <button onClick={() => this.handleFeedback('bad')}>Bad</button>
-    //     {this.renderFeedback()}
-    //   </div>
-    // );
   }
 }
