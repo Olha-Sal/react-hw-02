@@ -21,7 +21,7 @@ const App = () => {
 
   // Функція для підрахунку відсотка позитивних відгуків
   const countTotalFeedback = () => {
-    console.log(state.good + state.neutral + state.bad);
+    // console.log(state.good + state.neutral + state.bad);
     return state.good + state.neutral + state.bad;
   };
 
